@@ -37,6 +37,8 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
+    width: 100%;
   }
   html.lenis, html.lenis body {
     height: auto;
@@ -47,6 +49,7 @@
   body {
     @apply bg-cream text-ink font-sans antialiased overflow-x-hidden;
     font-optical-sizing: auto;
+    width: 100%;
   }
   ::selection {
     background: var(--color-rose);

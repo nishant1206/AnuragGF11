@@ -93,7 +93,7 @@ export default function App() {
   }, []);
 
   return (
-    <div className="grain relative min-h-svh">
+    <div className="grain relative min-h-svh overflow-x-hidden">
       <AnimatePresence>{loading && <Preloader />}</AnimatePresence>
 
       <PetalCanvas />
